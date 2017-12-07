@@ -1,0 +1,7 @@
+{
+    "server": "0.0.0.0",
+    "server_port": 8080,
+    "password": "sec_65387737..!",
+    "timeout": 300,
+    "method": "rc4-md5"
+}

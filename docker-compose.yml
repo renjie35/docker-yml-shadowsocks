@@ -1,0 +1,17 @@
+version: "2"
+services:
+    zookeeper:
+      container_name: shadowsocks
+      image: registry.cn-hangzhou.aliyuncs.com/jren/shadowsocks:latest
+      ports:
+        - "8080:8080"
+      volumes:
+        # 临时目录用于调试
+        - ./:/local
+        # 日志
+        - ./log:/var/log
+        # supervisor 配置
+        - ./supervisor:/supervisor
+        # shadowsocks默认配置
+        - ./shadowsocks.json:/etc/shadowsocks.json
+      tty: true
