@@ -1,4 +1,4 @@
-#<center/>Shadowsocks
+#Shadowsocks
 
 ##一.安装
 ```
