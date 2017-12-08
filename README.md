@@ -1,7 +1,9 @@
 #<center/>Shadowsocks
 
 ##一.安装
-    docker-compose up -d
+```
+docker-compose up -d
+```
 
 ##二.相关文件
 > - shadowsocks.json是shadowsocks相关配置
